@@ -1,0 +1,78 @@
+*{
+    padding:0px;
+   margin:0px;
+   text-decoration:none;
+}
+main{text-align: center; display: flex; justify-content: center; align-items: center; height: 100vh; }
+/* 中部的键盘居中显示 */
+kdb{
+    border:1px solid green;
+    margin:1px;
+    width:2em;
+    height:2em;
+    display:inline-block;
+    text-align:center;
+    text-transform: uppercase;
+    position: relative;
+    justify-items: auto;
+}
+body{
+    background:red url(./sea.jpg) no-repeat center center;
+    background-size:cover;
+}
+.hell{
+    background: rgba(255,255,255,0.2);
+    border-radius:7px;
+    /* border:1px solid green; */
+    z-index:3;
+    
+}
+
+main{
+    text-align: center;
+}
+div>kdb>button{
+    position:absolute;
+    right:0;
+    bottom:0;
+    background-color:white;
+    border:none;
+    display:none;
+}
+kdb:hover>button{
+    display:inline-block;
+    background-color:black;
+    color:white;
+    font-size:8px;
+}
+.key{
+    width:50px;
+    height:40px;
+    background: linear-gradient(to bottom, #292929 1%,#111111 100%);
+    border:1px solid #373737;
+    box-shadow: -2px 5px 8px 1px rgba(0,0,0,0.75);
+    display:inline-block;
+    border-radius:5px;
+    color:white;
+    font-family:Helvetica;
+    font-size:16px;
+    position: relative;
+}
+.row{
+    margin: 15px;
+}
+.row >.key{
+    margin:0 5px;
+}
+.key img{
+    width:14px;
+    height:14px;
+    position: absolute;
+    bottom:0px;
+    left:2px;
+}
+.key .text{
+    position: absolute;
+    left:4px;
+    top:2px;
+}
