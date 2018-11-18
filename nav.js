@@ -67,7 +67,7 @@ while (index < key.length) {
 document.onkeypress = function (sffs) {
     key = sffs.key;
     website = hash[key];
-    // window.open('http://' + website, '_blank');
+    window.open('http://' + website, '_blank');
     console.log(key);
 
 }
